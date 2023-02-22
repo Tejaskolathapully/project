@@ -5,8 +5,8 @@
 }
 
 .main{
-    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(1.jpg);
-    height: 189vh;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(aboutusimage.jpg);
+    height: 235vh;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -160,8 +160,8 @@ ul li a:hover{
 
 }
 ::placeholder{
-    color: gray;
-    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+    font-family: Arial;
 }
 .butn{
     width: 240px;
@@ -202,10 +202,9 @@ ul li a:hover{
 }
 
 .footer{
-    position:relative;
+    position: relative;
     width: 100%;
-    margin: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 .footer_logo{
     width: 140px;
@@ -383,98 +382,6 @@ ul li a:hover{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 204px;
-    border-bottom: 2px solid;
-    background-color: white;
-}
-
-.pyhead{
-    position: absolute;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    left: 670px;
-    top:100px;
-    color: gold;
-}
-
-.pdefinition{
-    position: relative;
-    font-size: 20px;
-    color: white;
-    top:100px;
-    padding-left: 50px;
-}
-
-.plist{
-    color: white;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-top: 120px;
-}
-
-.plist1{
-    color: white;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-
-.plist2{
-    color: white;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-
-.plist3{
-    color: white;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-
-.pcont{
-    position: relative;
-    width: 70%;
-    height: 450px;
-    background-color: transperent;
-    top: 10px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.ptext{
-    position: relative;
-    font-size: 1.5rem;
-    font-family: 'Poppin-bold';
-    text-align: center;
-    top: 5px;
-}
-
-.pboxanchor{
-    text-decoration: none;
-    color:black;
-    position: relative;
-    top: 69px;
-    height: 220px;
-}
-
-.pbox{
-    position: relative;
-    background-color: #e90f07e3;
-    border-radius: 15px;
-    width: 275px;
-    height: 260px;
-    box-shadow: 2px 2px 15px -4px black;
-    cursor: pointer;
-}
-
-.pimg{
-    position: relative;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 204px;
-    left:100px;
     border-bottom: 2px solid;
     background-color: white;
 }
